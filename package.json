@@ -1,0 +1,19 @@
+{
+  "name": "javascript-avancado",
+  "version": "1.0.0",
+  "description": "Curso Completo de JavaScript feito pelo canal Rincko Dev",
+  "main": "index.js",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/victorlopesdeveloper/javascript-avancado.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/victorlopesdeveloper/javascript-avancado/issues"
+  },
+  "homepage": "https://github.com/victorlopesdeveloper/javascript-avancado#readme"
+}
