@@ -59,3 +59,15 @@ if(notaDaProva >= 9){
 /* crie um algorítimo que analise tres lados de um triângulo, se o triâmngulo tiver os tres lados iguais,
 ele é um triangulo equilátero, se ele tiver dois lados iguais ele é um triângulo isóceles
 e se ele não tiver nenhum lado igual, ele é um triângulo escaleno*/
+
+let lado1 = 5;
+let lado2 = 4;
+let lado3 = 3;
+
+if(lado1 === lado2 && lado2 === lado3){
+    console.log("É um triângulo equilátero")
+} else if (lado1 === lado2 || lado2 === lado3 || lado1 === lado3){
+    console.log('É um triângulo isóceles')
+} else{
+    console.log("É um triângulo escaleno.")
+}
