@@ -42,12 +42,12 @@ let horas = 13;
 console.log(
     horas >= 0 && horas < 6 
     ? "Está de madrugada"
-    : horas >= 6 && horas <= 12
+    : horas >= 6 && horas < 12
     ? "Está de dia"
-    : horas <= 18
+    : horas >= 12 && horas < 18
     ? "Está de tarde"
-    : horas <= 24
+    : horas >= 18 && horas < 24
     ? "Está de noite"
-    : "Esse horário não existe!"
+    : "Hora inválida."
 )
 //-----------------------------------------------------------------------------
