@@ -141,3 +141,65 @@ for(let i = 1; i <= 10; i++){
 */
 
 //---------------------------------------------------------------------------------------------------------------------------
+
+/*
+Crie a tabuada de qualquer número digitado pelo usuário.
+
+const r1 =  require("node:readline");
+const prompt = r1.createInterface({
+    input: process.stdin, output: process.stdout
+})
+
+prompt.question("Você quer a tabuada de qual número? ", resposta =>{
+    let multiplicador = Number.parseInt(resposta);
+
+    if(Number.isNaN(multiplicador)){
+        console.log("O número não é válido!")
+    }else{
+        for(let i = 1; i <= 10; i++){
+            let resultado = multiplicador * i;
+            setTimeout(() => console.log(`${multiplicador} x ${i} = ${resultado}`), 200 * i)
+        }
+    }
+    prompt.close()
+})
+
+*/
+
+//---------------------------------------------------------------------------------------------------------------------------
+
+/*
+Mostre as tabuadas do 1 ao 10.
+
+
+for(let tabuada = 1; tabuada <= 10; tabuada++){
+    for(let multiplicador = 1; multiplicador <= 10; multiplicador++){
+        let resultado = tabuada * multiplicador;
+        console.log(`${tabuada} x ${multiplicador} = ${resultado}`);
+    }
+}
+
+*/
+/*
+
+Percorra a palavra "JavaScript" e mostre cada letra em uma linha.
+
+let linguagem = "javascript";
+
+for(let i = 0; i < linguagem.length; i++){
+    console.log(linguagem[i]);
+}
+*/
+
+/*
+Conte quantas letras existem na palavra "Programador".
+*/
+
+let palavra = "programador";
+let contador = 0;
+
+for(let i = 0; i < palavra.length; i++){
+    contador++;
+    
+}
+console.log(`A palavra programador tem ${contador} letras`);
