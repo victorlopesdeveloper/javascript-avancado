@@ -115,8 +115,8 @@ const prompt = r1.createInterface({
     input: process.stdin, output: process.stdout
 })
 
-prompt.question('Quantas horas de trabalho você teve essa semana ', pergunta => {
-    let tempoTrabalhado = Number.parseInt(pergunta)
+prompt.question('Quantas horas de trabalho você teve essa semana ', resposta => {
+    let tempoTrabalhado = Number.parseInt(resposta)
     if(Number.isNaN(tempoTrabalhado)){
         console.log("Digite um número válido")
     }else if(tempoTrabalhado >= 40){

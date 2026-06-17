@@ -108,8 +108,8 @@ console.log("[4] Ver comidas");
 console.log("[5] Ver linguagens");
 console.log("[0] Sair");
 
-prompt.question("Digite a opção escolhida: ", pergunta => {
-    switch(pergunta){
+prompt.question("Digite a opção escolhida: ", resposta => {
+    switch(resposta){
         case "1": {
             const data = new Date();
             const dia = data.getDate();
