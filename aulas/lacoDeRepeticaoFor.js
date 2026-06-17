@@ -76,3 +76,4 @@ prompt.question("Qual número você deseja ver a tabuada? ", resposta =>{
     prompt.close();
 
 })
+
