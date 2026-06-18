@@ -7,6 +7,9 @@ while(i <= 10){
 }
 //--------------------------------------------------------------------------------------------------------
 
+const senhaCorreta = "javascript123"
+let tentativa;
+let contador = 1;
 
 const r1 =  require("node:readline");
 const prompt = r1.createInterface({
@@ -14,7 +17,13 @@ const prompt = r1.createInterface({
 })
 
 prompt.question("Digite a senha: ", senha =>{
-
+    
+    res = Number.parseInt(senha);
+    if(senha !== senhaCorreta && contador <= 3){
+        console.log(`Tentativa ${contador} senha incorreta. tenta novamente.`)
+    }else{
+        console.log("Senha correta! Bem vindo ao sistema");
+    }
 
     prompt.close();
 
