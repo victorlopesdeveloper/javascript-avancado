@@ -37,3 +37,27 @@ console.log(`Ram: `);
 for(const ram of computador.ram){
     console.log(ram.marca, ram.capacidade, "Gigas")
 }
+
+//-------------------------------------------------------------------------------------------------------------------------------------
+
+const empresa = {
+    nome: "Sycontabilize",
+    equipe:{
+        ceo: 'Sybelle',
+        auxiliar: 'Victor',
+        setorPessoal: 'Victor Hugo',
+        aoe1: "Isaac",
+        aoe2: 'Larissa',
+        aoe3: 'Leticia'
+    },
+    empresasParceiras: {
+        certificado: "Online",
+        sistema: 'Netspeed',
+        gestão: 'Veri'
+    }
+}
+
+console.log(`A empresa que trabalho se chama ${empresa.nome}, meu nome é ${empresa.equipe.auxiliar} e sou auxiliar de contabilidade`);
+for(const [chave, valor] of Object.entries(empresa.equipe)){
+    console.log(`A equipe é formada por ${chave}: ${valor}`);
+}
