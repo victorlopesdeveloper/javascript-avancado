@@ -2,7 +2,7 @@
   "name": "javascript-avancado",
   "version": "1.0.0",
   "description": "Curso Completo de JavaScript feito pelo canal Rincko Dev",
-  "main": "aulas/scripts/index.js",
+  "main": "index.js",
   "scripts": {
     "start": "node --env-file .env aulas/scripts/index.js",
     "watch": "node --watch --env-file .env aulas/scripts/index.js"
