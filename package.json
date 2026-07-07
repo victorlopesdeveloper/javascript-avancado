@@ -4,8 +4,8 @@
   "description": "Curso Completo de JavaScript feito pelo canal Rincko Dev",
   "main": "index.js",
   "scripts": {
-    "start": "node --env-file .env aulas/scripts/index.js",
-    "watch": "node --watch --env-file .env aulas/scripts/index.js"
+    "start": "node --env-file .env aulas/caminhos/index.js",
+    "watch": "node --watch --env-file .env aulas/caminhos/index.js"
   },
   "repository": {
     "type": "git",
